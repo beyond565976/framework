@@ -1,4 +1,4 @@
-package com.beyond.framework.util;
+package com.beyond.framework.view;
 
 import android.app.Activity;
 import android.app.Dialog;

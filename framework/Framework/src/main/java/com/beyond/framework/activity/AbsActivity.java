@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.beyond.framework.util.Util;
-import com.beyond.framework.util.ViewUtil;
+import com.beyond.framework.view.ViewUtil;
 
 import java.io.Serializable;
 
