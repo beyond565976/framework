@@ -3,6 +3,7 @@ package com.beyond.framework.util;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -16,16 +17,20 @@ public final class Util {
   private Util() {
   }
 
-  public static <T> T getT(Object object, Class<T> type) {
+  public static <T> T getT(@NonNull
+  Object object, @NonNull
+  Class<T> type) {
     return type.isInstance(object) ? (T) object : null;
   }
 
-  public static <T extends Activity> T getTActivity(Context context) {
+  public static <T extends Activity> T getTActivity(@NonNull
+  Context context) {
     Activity activity = getT(context, Activity.class);
     return activity == null ? null : (T) activity;
   }
 
-  public static <T extends Serializable> T getSerializable(Bundle bundle, String name) {
+  public static <T extends Serializable> T getSerializable(Bundle bundle, @NonNull
+  String name) {
     Object result = bundle == null ? null : bundle.getSerializable(name);
     return result == null ? null : (T) result;
   }
