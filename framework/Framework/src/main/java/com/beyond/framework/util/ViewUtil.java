@@ -1,13 +1,13 @@
-package framework.beyond.com.framework.util;
-
-import java.util.List;
-
-import com.google.common.collect.Lists;
+package com.beyond.framework.util;
 
 import android.app.Activity;
 import android.app.Dialog;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.google.common.collect.Lists;
+
+import java.util.List;
 
 public final class ViewUtil {
 

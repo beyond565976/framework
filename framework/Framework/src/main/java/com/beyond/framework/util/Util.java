@@ -1,4 +1,8 @@
-package framework.beyond.com.framework.util;
+package com.beyond.framework.util;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -6,10 +10,6 @@ import java.io.Closeable;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-
-import android.app.Activity;
-import android.content.Context;
-import android.os.Bundle;
 
 public final class Util {
 

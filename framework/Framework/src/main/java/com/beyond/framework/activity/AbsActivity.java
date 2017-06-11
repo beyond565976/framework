@@ -1,13 +1,13 @@
-package framework.beyond.com.framework.activity;
-
-import java.io.Serializable;
+package com.beyond.framework.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import example.beyond.com.framework.util.Util;
-import example.beyond.com.framework.util.ViewUtil;
+import com.beyond.framework.util.Util;
+import com.beyond.framework.util.ViewUtil;
+
+import java.io.Serializable;
 
 public class AbsActivity extends AppCompatActivity {
 
